@@ -44,4 +44,4 @@ jobs:
       uses: actions/upload-artifact@v3
       with:
         name: msbuild
-        path: D:\a\EC\EC\x64\Release
+        path: D:\a\EC\EC\
