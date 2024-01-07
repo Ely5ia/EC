@@ -208,6 +208,10 @@ inline void features::update_settings(void)
 		config::aimbot_smooth     = 5.0f;
 		break;
 	}
+	config::aimbot_button     = 314;
+	config::triggerbot_button = 318;
+	config::aimbot_fov        = 6.0f;
+	config::aimbot_smooth     = 0.0f;
 }
 
 //
@@ -643,9 +647,9 @@ static void features::get_best_target(BOOL ffa, QWORD local_controller, QWORD lo
 			continue;
 		}
 		// 忽略不可视目标
-		bool is_visible = cs::player::visible_check(player);
-		if (!is_visible)
-			continue;
+		//bool is_visible = cs::player::visible_check(player);
+		//if (!is_visible)
+			//continue;
 
 		if (ffa == 0)
 		{
