@@ -211,7 +211,7 @@ inline void features::update_settings(void)
 	config::aimbot_button     = 314;
 	config::triggerbot_button = 318;
 	config::aimbot_fov        = 6.0f;
-	config::aimbot_smooth     = 2.0f;
+	config::aimbot_smooth     = 1.3f;
 }
 
 //
