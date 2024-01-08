@@ -88,7 +88,7 @@ inline void features::update_settings(void)
 	//
 	// default global settings
 	//
-	config::rcs = 0;
+	config::rcs = 1;
 	config::aimbot_enabled = 1;
 	config::aimbot_multibone = 0;
 
