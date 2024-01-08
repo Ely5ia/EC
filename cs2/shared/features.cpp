@@ -647,9 +647,9 @@ static void features::get_best_target(BOOL ffa, QWORD local_controller, QWORD lo
 			continue;
 		}
 		// 忽略不可视目标
-		//bool is_visible = cs::player::visible_check(player);
-		//if (!is_visible)
-			//continue;
+		bool is_visible = cs::player::visible_check(player);
+		if (!is_visible)
+			continue;
 
 		if (ffa == 0)
 		{

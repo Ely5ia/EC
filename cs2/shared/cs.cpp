@@ -782,7 +782,7 @@ DWORD cs::player::get_team_num(QWORD player)
 
 DWORD cs::player::visible_check(QWORD player)
 {
-	return vm::read_i32(game_handle, player + 0x1620 + 0xC);
+	return vm::read_i32(game_handle, player + 0x1638 + 0xC);
 
 }
 
