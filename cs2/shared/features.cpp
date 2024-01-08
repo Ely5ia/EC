@@ -88,9 +88,9 @@ inline void features::update_settings(void)
 	//
 	// default global settings
 	//
-	config::rcs = 1;
+	config::rcs = 0;
 	config::aimbot_enabled = 1;
-	config::aimbot_multibone = 1;
+	config::aimbot_multibone = 0;
 
 
 #ifdef _KERNEL_MODE
@@ -211,7 +211,7 @@ inline void features::update_settings(void)
 	config::aimbot_button     = 314;
 	config::triggerbot_button = 318;
 	config::aimbot_fov        = 6.0f;
-	config::aimbot_smooth     = 0.0f;
+	config::aimbot_smooth     = 2.0f;
 }
 
 //
